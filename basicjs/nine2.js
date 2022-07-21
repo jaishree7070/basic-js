@@ -8,7 +8,7 @@ function pyramid()
         {
             output=output+j;
         }
-        console.log(output);
-        output='';
+        output+="<br>";
     }
+    document.getElementById("result").innerHTML = "The desired output is"+"<br>" + output;
 }
